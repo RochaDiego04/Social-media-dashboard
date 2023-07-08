@@ -1,0 +1,5 @@
+@use '../util' as *; // dont need to add for example util.rem(20)
+
+.card {
+    padding: rem(20);
+}
