@@ -27,6 +27,7 @@
   --background: var(--light-bg);
   --text-color: var(--light-text2);
   --text-color2: var(--light-text1);
+  --h2-color: var(--text-color2);
   --card-bg: var(--light-card);
   --card-hover: var(--light-card-hover);
   --toggle: var(--toggle-light);
@@ -39,6 +40,7 @@
     --background: var(--dark-bg);
     --text-color: var(--dark-text2);
     --text-color2: var(--dark-text1);
+    --h2-color: var(--text-color1);
     --card-bg: var(--dark-card);
     --card-hover: var(--dark-card-hover);
     --toggle: var(--light-bg);
@@ -55,6 +57,7 @@ body.light {
   --background: var(--light-bg);
   --text-color: var(--light-text2);
   --text-color2: var(--light-text1);
+  --h2-color: var(--text-color2);
   --card-bg: var(--light-card);
   --card-hover: var(--light-card-hover);
   --toggle: var(--toggle-light);
@@ -66,6 +69,7 @@ body.dark {
   --background: var(--dark-bg);
   --text-color: var(--dark-text2);
   --text-color2: var(--dark-text1);
+  --h2-color: var(--text-color);
   --card-bg: var(--dark-card);
   --card-hover: var(--dark-card-hover);
   --toggle: var(--light-bg);
