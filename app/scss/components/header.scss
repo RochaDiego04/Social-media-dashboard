@@ -24,3 +24,14 @@
 		color: var(--text-color2);
 	}
 }
+
+.mobile-hr {
+	display: block;
+    width: 100%;
+    border: none;
+    border-top: rem(1.85) solid var(--mobile-top-bar); /* Change the color and style as needed */
+	margin: rem(28) 0 rem(20) 0;
+	@include breakpoint(medium) {
+		display: none;
+	}
+  }

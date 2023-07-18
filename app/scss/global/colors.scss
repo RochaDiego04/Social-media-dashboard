@@ -18,12 +18,16 @@
   --dark-card-hover: hsl(228, 25%, 27%);
   --dark-text1: hsl(228, 34%, 66%);
   --dark-text2: hsl(0, 0%, 100%);
+  --dark-mobile-bar: hsl(237, 18%, 24%);
   --light-bg: hsl(0, 0%, 100%);
   --light-top-bg: hsl(225, 100%, 98%);
   --light-card: hsl(227, 47%, 96%);
   --light-card-hover: hsl(228, 33%, 91%);
   --light-text1: hsl(230, 12%, 44%);
   --light-text2: hsl(230, 17%, 14%);
+  --light-mobile-bar: hsl(230, 33%, 74%);
+
+  // Light as default
   --background: var(--light-bg);
   --text-color: var(--light-text2);
   --text-color2: var(--light-text1);
@@ -33,6 +37,7 @@
   --toggle: var(--toggle-light);
   --toggle-bg: var(--toggle-bg-light);
   --toggle-button: var(--toggle-button-light);
+  --mobile-top-bar: var(--light-mobile-bar);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,6 +55,7 @@
       var(--toggle-bg-start) 98.02%
     );
     --toggle-button: var(--dark-bg);
+    --mobile-top-bar: var(--dark-mobile-bar);
   }
 }
 
@@ -63,6 +69,7 @@ body.light {
   --toggle: var(--toggle-light);
   --toggle-bg: var(--toggle-bg-light);
   --toggle-button: var(--toggle-button-light);
+  --mobile-top-bar: var(--light-mobile-bar);
 }
 
 body.dark {
@@ -79,4 +86,5 @@ body.dark {
     var(--toggle-bg-start) 98.02%
   );
   --toggle-button: var(--dark-bg);
+  --mobile-top-bar: var(--dark-mobile-bar);
 }
